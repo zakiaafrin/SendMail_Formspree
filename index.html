@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/animate.css">
+
+    <!-- Smooth Scrolling Animation -->
+    <link rel="stylesheet" href="css/aos.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap4.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <!-- <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet"
+              integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Contact Form using Formspree</title>
+</head>
+
+<body>
+
+    <!-- Contact Section -->
+    <div class="container-fluid text-white py-5" id="contact">
+        <h1 class="text-center mt-5" data-aos="fade-down" data-aos-duration="700">
+            Contact Us
+        </h1>
+        <div class="container py-5">
+
+            <!-- Form with cards -->
+            <div class="row">
+                <div class="col-lg-7 col-md-7 col-sm-7 py-3">
+                    <h4 class="color text-center" data-aos=" zoom-out-down" data-aos-duration="700">
+                        Let's Talk About Your Project!
+                    </h4>
+                    <div class="card mt-3" style="border: 5px solid #888888;" data-aos="fade-right"
+                        data-aos-duration="700">
+                        <div class="card-body">
+                            <!-- <form class="needs-validation" method=”post” name=”contact_form” novalidate> -->
+                            <form class="needs-validation" action="https://formspree.io/zakia_afrin@yahoo.com"
+                                method="POST" id="contact-form" novalidate>
+                                <div class="form-row">
+                                    <div class="col-lg-6 col-md-6 col-sm-6 mb-3">
+                                        <label for="name">Your Name</label>
+                                        <input type="text" name="User's Name" class="form-control" id="name"
+                                            placeholder="Your Name" required>
+                                        <div class="valid-feedback">
+                                            Looks good!
+                                        </div>
+                                        <div class="invalid-feedback">
+                                            Please choose your valid Name.
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-6 mb-3">
+                                        <label for="email">Email Address</label>
+                                        <input type="email" name="User's Email" class="form-control" id="email"
+                                            placeholder="Your Email" required>
+                                        <div class="valid-feedback">
+                                            Looks good!
+                                        </div>
+                                        <div class="invalid-feedback">
+                                            Please choose your valid Email Address.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-row">
+                                    <div class="col-lg-12 col-md-12 col-sm-12 mb-3">
+                                        <label for="message">Message</label>
+                                        <textarea name="Message" class="form-control" id="message" placeholder="Message"
+                                            required></textarea>
+                                        <div class="valid-feedback">
+                                            Looks good!
+                                        </div>
+                                        <div class="invalid-feedback">
+                                            Please provide your message.
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- <button class="btn btn-primary button" type="submit" data-aos="zoom-in" data-aos-duration="700">Contact
+                      Us</button> -->
+                                <div class="form-row">
+                                    <div class="col-lg-12 col-md-12 col-sm-12 mb-3 text-center">
+                                        <input type="submit" value="Send" class="btn btn-primary button"
+                                            data-aos="zoom-in" data-aos-duration="500">
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-4 col-sm-4 offset-lg-1 offset-md-1 offset-sm-1 py-5 text-center">
+                    <h5 class="color mt-3" data-aos="zoom-out-down" data-aos-duration="700">If you want to know more
+                        about our
+                        service please contact us!</h5 class="color">
+
+                    <div class="row py-3">
+                        <div class="offset-lg-1 offset-md-1 offset-sm-1 col-lg-4 col-md-4 col-sm-4">
+                            <i class="fa fa-phone" data-aos="fade-left" data-aos-duration="700">
+                                <strong class="color"> &nbsp; Phone : </strong></i>
+                        </div>
+                        <div class="col-lg-7 col-md-7 col-sm-7">
+                            <p data-aos="fade-left" data-aos-duration="700"> &nbsp; +1786-702-4842
+                            </p>
+                            <p data-aos="fade-left" data-aos-duration="700"> &nbsp; +1786-204-5427
+                            </p>
+                            <p data-aos="fade-left" data-aos-duration="700"> &nbsp; +1786-613-0517
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="row" data-aos="fade-left" data-aos-duration="700">
+                        <div class="offset-lg-1 offset-md-1 offset-sm-1 col-lg-4 col-md-4 col-sm-4">
+                            <i class="fa fa-envelope">
+                                <strong class="color"> &nbsp; Email : </strong></i></div>
+                        <div class="col-lg-7 col-md-7 col-sm-7">
+                            <p> &nbsp; info@softwarejaam.com</p>
+                        </div>
+
+                    </div>
+
+                    <div class="row" data-aos="fade-left" data-aos-duration="700">
+                        <div class="offset-lg-1 offset-md-1 offset-sm-1 col-lg-4 col-md-4 col-sm-4">
+                            <i class="fa fa-map-marker">
+                                <strong class="color"> &nbsp; Address : </strong></i></div>
+                        <div class="col-lg-7 col-md-7 col-sm-7">
+                            <p> &nbsp; MIAMI, FL33179, USA</p>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+            <!-- Form with cards Ends -->
+        </div>
+    </div>
+    <!-- Contact Section Ends -->
+
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.2.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap4.min.js"></script>
+
+    <!-- Smooth Scrolling Animation -->
+    <script src="js/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+    <!-- Example starter JavaScript for disabling form submissions if there are invalid fields -->
+    <script>
+        (function () {
+            'use strict';
+            window.addEventListener('load', function () {
+                // Fetch all the forms we want to apply custom Bootstrap validation styles to
+                var forms = document.getElementsByClassName('needs-validation');
+                // Loop over them and prevent submission
+                var validation = Array.prototype.filter.call(forms, function (form) {
+                    form.addEventListener('submit', function (event) {
+                        if (form.checkValidity() === false) {
+                            event.preventDefault();
+                            event.stopPropagation();
+                        }
+                        form.classList.add('was-validated');
+                    }, false);
+                });
+            }, false);
+        })();
+    </script>
+</body>
+
+</html>

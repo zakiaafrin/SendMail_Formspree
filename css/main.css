@@ -1,0 +1,17 @@
+body {
+    background-color: #061a33;
+}
+
+/* Contact
+========================== */
+.color {
+    color: rgb(10, 156, 160);
+}
+
+.button{
+    background-color: rgb(10, 156, 160);
+}
+
+textarea {
+    min-height: 150px;
+}
